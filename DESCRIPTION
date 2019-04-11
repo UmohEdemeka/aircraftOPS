@@ -1,0 +1,15 @@
+Package: aircraftOPS
+Title: R code for use with aircraft operation data
+Version: 0.0.0.9000
+Authors@R: c(person("Umoh", "Edemeka", email = "tsuue@leeds.ac.uk", 
+    role = c("aut", "cre")), person("Karl", "Ropkins",  role = c("ctb"))) 
+Description: The aircraftOPS package was created as part of PhD 
+    work by the lead author. Package code was developed for use 
+    with AIMS and aircraft operations data. 
+Depends: R (>= 3.5.1)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    XML
+RoxygenNote: 6.1.1

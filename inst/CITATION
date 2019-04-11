@@ -1,0 +1,21 @@
+citHeader("To cite 'aircraftOPS' package in publications use:")
+
+year <- sub("-.*", "", meta$Date) 
+version <- meta$Version
+note <- sprintf("R package version %s", version) 
+
+citEntry(entry="Manual",
+         title = "aircraftOPS: R code for use with aircraft operation data.",
+         author = personList(as.person("Umoh Emedeka"), 
+                             as.person("Karl Ropkins")),
+         year = year,
+         note = note,
+         textVersion =
+         paste("Umoh Emedeka & Karl Ropkins (", year,
+               "). aircraftOPS: R code for use with aircraft operation data. ",
+               "R package version ", version, ".", sep=""))
+
+citFooter("Please cite both 'aircraftOPS' and R ",
+          "when using 'aircraftOPS' for data analysis.",
+          "For R citation, see ", sQuote("citation()"))
+          
