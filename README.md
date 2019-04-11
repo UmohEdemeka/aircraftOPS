@@ -1,11 +1,4 @@
----
-title: "aircraftOPS"
-output: github_document
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+# aircraftOPS
 
 R code for use with aircraft operation data.
 
