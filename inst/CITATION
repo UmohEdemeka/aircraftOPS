@@ -6,12 +6,12 @@ note <- sprintf("R package version %s", version)
 
 citEntry(entry="Manual",
          title = "aircraftOPS: R code for use with aircraft operation data.",
-         author = personList(as.person("Umoh Emedeka"), 
+         author = personList(as.person("Umoh Edemeka"), 
                              as.person("Karl Ropkins")),
          year = year,
          note = note,
          textVersion =
-         paste("Umoh Emedeka & Karl Ropkins (", year,
+         paste("Umoh Edemeka & Karl Ropkins (", year,
                "). aircraftOPS: R code for use with aircraft operation data. ",
                "R package version ", version, ".", sep=""))
 
